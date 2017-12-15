@@ -354,11 +354,23 @@ p, h5, h6 {
 }
 
 @media screen and (min-width: 1000px) {
- 
   .icon-group {
       padding-left: 3rem;
       padding-right: 3rem;
   }
+}
+
+@media screen and (max-width: 768px) {
+    .rsp-bottom-margin {
+        margin-bottom: 5rem;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+    .rsp-bottom-margin {
+        margin-bottom: 2rem;
+    }
 }
 
 /* loader css start */
@@ -420,8 +432,6 @@ p, h5, h6 {
     -moz-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
-
-
  
 /* include this only once */
 @-webkit-keyframes spin {
