@@ -1,12 +1,28 @@
 
+
+/*$(document).ready(function() {
+    var isshow = localStorage.getItem('isshow');
+    if (isshow == null) {
+        localStorage.setItem('isshow', 1);
+    } else {
+        $('.loader').remove();
+        $('.loader-wrapper').remove();
+        $('.loader-section').remove();
+        $('.section-left').remove();
+        $('.loader-right').remove();
+    }
+});*/
+
 $(window).on('load', function () {
     
       setTimeout(function(){
         $('body').addClass('loaded');
 
-    }, 2000);
+    }, 500);
     
  });
+
+
  /*
 $(window).load(function() {
  
