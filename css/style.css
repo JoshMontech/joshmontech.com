@@ -278,7 +278,7 @@ p, h5, h6 {
 
 .fa {
     padding: 20px;
-    font-size: 100px;
+    font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -286,7 +286,9 @@ p, h5, h6 {
 
 /* Add a hover effect if you want */
 .fa:hover {
-    opacity: 0.99;
+    opacity: 0.4;
+    color: #fff;
+    text-decoration: none;
 }
 
 /* Set a specific color for each brand */
