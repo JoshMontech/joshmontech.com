@@ -39,8 +39,6 @@
     background-color: #6E929A;
 }
 
-
-
 body {
 	font-family: 'Roboto', sans-serif;
 	padding-top: 0;
@@ -172,6 +170,25 @@ main {
 
 }
 
+.grow-footer {
+    transition: all .2s ease-in-out; 
+    opacity: 1;
+}
+
+.button-grow:hover {
+    transform: scale(1.05);
+}
+
+.button-grow {
+    transition: all .2s ease-in-out; 
+}
+
+
+.grow-footer:hover {
+    transform: scale(1.2); 
+    color: #0E2D51;
+}
+
 .grow { 
     transition: all .2s ease-in-out; 
     opacity: .6;
@@ -202,8 +219,7 @@ main {
 }
 
 .emphasis {
-    text-decoration: underline;
-    text-decoration-color: #6E929A;
+    font-weight: 500;
 }
 
 .nav-down {
@@ -276,7 +292,7 @@ p, h5, h6 {
     text-decoration: none;
 }
 
-.fa {
+.footer-style {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -285,9 +301,8 @@ p, h5, h6 {
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
-    opacity: 0.4;
-    color: #fff;
+.footer-style:hover {
+    color: #7A9BB5;
     text-decoration: none;
 }
 
@@ -340,19 +355,15 @@ p, h5, h6 {
 .btn:focus, .btn:active:focus, .btn.active:focus {
     outline: 0 none;
 }
- 
+
 .btn-primary {
-    background: #0099cc;
-    color: #ffffff;
+    background-color: #0E2D51;
+    border: #0E2D51;
 }
- 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-    background: #33a6cc;
-}
- 
-.btn-primary:active, .btn-primary.active {
-    background: #007299;
-    box-shadow: none;
+
+.btn-primary:hover {
+    background-color: #6f9299;
+    border: #6f9299;
 }
 
 @media screen and (min-width: 1000px) {
