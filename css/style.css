@@ -97,6 +97,16 @@ body, html {
     position: relative;
 }
 
+.bg2 {
+    background: url('bg.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-top: -80px;
+    padding-top: 80px;
+}
+
 .hero-text {
     margin:0;
     text-align: center;
@@ -109,6 +119,22 @@ body, html {
 
 main {
 	height: 100%;
+}
+
+section {
+    height: 100vh;
+}
+
+section.bg2 {
+    height: calc(100vh + 80px);
+}
+
+.pb-6 {
+    padding-bottom: 4.5rem; 
+}
+
+.pt-10 {
+    padding-top: 11rem;
 }
 
 .thin-font {
