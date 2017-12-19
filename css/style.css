@@ -75,6 +75,10 @@ nav {
 	top: -58px;
 }
 
+.limit-of-x {
+    overflow: hidden;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -122,12 +126,87 @@ main {
 }
 
 section {
-    height: 100vh;
+    height: 120vh;
 }
 
 section.bg2 {
     height: calc(100vh + 80px);
 }
+
+.fluid {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.mr-test {
+    margin-right:100px;
+}
+
+
+
+.case-container {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow:hidden;
+}
+
+.case-description {
+    text-align: left;
+    width: 55vw;
+}
+
+.case-image {
+    text-align: right;
+}
+
+
+@media screen and (min-width: 769px) {
+    .case-description {
+        max-width: 65vw;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .flag {
+        display: none;
+    }
+
+    .case-image {
+        width:300px;
+    }
+
+    .case-description {
+        padding-left: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .case-image {
+        margin-right: -35vw !important;
+        width: 300px;
+    }
+
+    .case-description {
+        padding-right: 1rem !important;
+
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .case-image {
+        margin-right: -80vw !important;
+    }
+
+    .case-description: {
+        width: 80vw;
+    }
+}
+
+
+
+
 
 .pb-6 {
     padding-bottom: 4.5rem; 
@@ -135,6 +214,18 @@ section.bg2 {
 
 .pt-10 {
     padding-top: 11rem;
+}
+
+.pl-6 {
+    padding-left: 4.5rem;
+}
+
+.pr-6 {
+    padding-right: 4.5rem;
+}
+
+.mr-neg20 {
+    margin-right: -20vh;
 }
 
 .thin-font {
@@ -439,6 +530,7 @@ p, h5, h6 {
    /* border: 5px solid #0f2e50;*/
 
 }
+
 
 /* loader css start */
 .loader-wrapper {
