@@ -218,11 +218,21 @@ section.bg2 {
 
     .case-description: {
         width: 80vw;
+        color: #0E2D51;
     }
 }
 
+.dark-blue {
+    color: #0E2D51;
+}
 
+.white {
+    color: white;
+}
 
+.tools {
+    opacity: .5;
+}
 
 
 .pb-6 {
@@ -373,7 +383,7 @@ section.bg2 {
 }
 
 .ok2talk {
-    background-color: #b7dee2;
+    background-color: #106b75;
 }
 
 .stockup {
