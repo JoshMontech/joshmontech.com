@@ -139,6 +139,12 @@ section.bg2 {
     max-width: 300px;
 }
 
+.fluid2 {
+    height: auto;
+    max-width: 50vw;
+    margin-right: -5vw;
+}
+
 .mr-test {
     margin-right:100px;
 }
@@ -180,23 +186,34 @@ section.bg2 {
     .case-description {
         padding-left: 1rem !important;
     }
+
+    .fluid2 {
+        min-width:450px;
+    }
+
 }
 
 @media screen and (max-width: 576px) {
     .case-image {
-        margin-right: -35vw !important;
-        width: 300px;
+        margin-right: -30vw !important;
+        max-width: 250px;
     }
 
     .case-description {
         padding-right: 1rem !important;
 
     }
+
+       .fluid2 {
+        margin-right: -20vw !important;
+        min-width:400px;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .case-image {
-        margin-right: -80vw !important;
+        margin-right: -25vw !important;
+        max-width: 200px;
     }
 
     .case-description: {
@@ -349,6 +366,18 @@ section.bg2 {
 .header { 
     background: #0F2E50;
     z-index: 99;
+}
+
+.mefree {
+    background-color: #d0e3ef;
+}
+
+.ok2talk {
+    background-color: #b7dee2;
+}
+
+.stockup {
+    background-color: #f2be87;
 }
 
 .bottom-buffer {
