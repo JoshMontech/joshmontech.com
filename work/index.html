@@ -165,16 +165,16 @@
     </section>
 
     <!-- Thanks for visiting! -->
-    <div class="container top-buffer bottom-buffer panel ">
+    <div class="container top-buffer bottom-buffer panel">
       <div class="row">
-        <div class="col-md-12 text-center mb-4" data-aos="fade-up">
+        <div class="col-md-12 text-center mb-4" data-aos="fade-up" data-aos-delay="100">
           <span class="black-font" style="font-size:32px; color: #0E2D51;">Connect With Me</span> 
         </div>
       </div>
       <div class="row">
         <div class="col-md-1">
         </div>
-        <div class="col-md-10 align-center text-center mb-4" data-aos="fade-up">
+        <div class="col-md-10 align-center text-center mb-4" data-aos="fade-up" data-aos-delay="100">
           <span class="light-font mission" style="color: #0E2D51;"><span class="bold-font">I'm currently seeking product design and development opportunities!</span> I coded this website from scratch (<a href="https://github.com/JoshMontech/joshmontech.com" class="mission-highlight">get it here</a>), no template, no theme, only opensource frameworks, my code and oodles of Googling. If you didn't already, learn about me and my process at the button below!👇
           <br />
           <br />
@@ -185,8 +185,8 @@
       </div>
       <div class="row">
         <div class="col-12 text-center">
-          <a class="btn btn-primary button-grow mr-5" href="/" role="button" data-aos="fade-up">My Process<i class="fa fa-pencil" style="margin-left: 10px;"></i></a>
-          <a class="btn btn-primary button-grow" href="mailto:joshmontech@gmail.com" role="button" data-aos="fade-up">Contact Me<i class="fa fa-envelope" style="margin-left: 10px;"></i></a>
+          <a class="btn btn-primary button-grow mr-5" href="/" role="button" data-aos="flip-right" data-aos-delay="400" data-aos-offset="-100">My Process<i class="fa fa-pencil" style="margin-left: 10px;"></i></a>
+          <a class="btn btn-primary button-grow" href="mailto:joshmontech@gmail.com" role="button" data-aos="flip-right" data-aos-delay="600" data-aos-offset="-100">Contact Me<i class="fa fa-envelope" style="margin-left: 10px;"></i></a>
         </div>
       </div>
     </div>
@@ -227,39 +227,9 @@
     AOS.init();
   </script>
 
-  <script>
-        $(window).scroll(function() {
-          
-          // selectors
-          var $window = $(window),
-              $body = $('body'),
-              $panel = $('.panel');
-          
-          // Change 33% earlier than scroll position so colour is there when you arrive.
-          var scroll = $window.scrollTop() + ($window.height() / 3);
-         
-          $panel.each(function () {
-            var $this = $(this);
-            
-            // if position is within range of this panel.
-            // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
-            // Remember we set the scroll to 33% earlier in scroll var.
-            if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
-                  
-              // Remove all classes on body with color-
-              $body.removeClass(function (index, css) {
-                return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
-              });
-               
-              // Add class of currently active div
-              $body.addClass('color-' + $(this).data('color'));
-            }
-          });    
-          
-        }).scroll();
-    </script>
 
       <script src="/js/josh_scripts.js"></script>
+      <script src="/js/work_scripts.js"></script>
   </body>
 </html>
 

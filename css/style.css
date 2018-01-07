@@ -594,7 +594,7 @@ p, h5, h6 {
 
 @media screen and (min-width: 769px) {
     .rsp-bottom-margin {
-        margin-bottom: 2rem;
+        /*margin-bottom: 2rem;*/
     }
 }
 
