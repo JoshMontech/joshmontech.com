@@ -13,6 +13,8 @@
     }
 });*/
 
+
+
 $(window).on('load', function () {
     
       setTimeout(function(){
@@ -21,22 +23,6 @@ $(window).on('load', function () {
     }, 500);
     
  });
-
-
- /*
-$(window).load(function() {
- 
-    setTimeout(function(){
-        $('body').addClass('loaded');
-
-    }, 500);
-    
-    
-    $('body').addClass('loaded');
-    
- 
-});
-*/
 
 // Hide Header on on scroll down
 var didScroll;

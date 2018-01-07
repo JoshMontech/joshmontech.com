@@ -14,7 +14,8 @@
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
         <link rel="stylesheet" href="/css/style.css">
@@ -42,13 +43,13 @@
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/">About</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="https://medium.com/@joshmontech">Work<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/work">Work<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="docs/Resume_Josh_Montgomery.pdf" target="_blank">Resume</a>
+                <a class="nav-link" href="/docs/Resume_Josh_Montgomery.pdf" target="_blank">Resume</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="mailto:joshmontech@gmail.com">Contact</a>
@@ -59,7 +60,7 @@
         </nav>
     </div>
 
-    <section class="bg2">
+    <section class="bg2 panel" data-color="body">
         <div class="container h-100">
             <div class="row h-100 justify-content-center align-items-center">
                 <div class="col-12 text-center pb-6 dark-blue">
@@ -91,49 +92,62 @@
             </div>  
         </div>
     </section> -->
+    <!-- <section class="panel spacer" data-color="body">
+        <div class="container-fluid">
+            <div class="row" height=>
+                <div class="col-12">
+                    this is a test blah blah blah
+                </div>
+            </div>
+        </div>
+    </section> -->
 
-    <section>
-        <div class="container-fluid d-flex h-100 case-container mefree">
+    <section class="panel mt-11"  data-color="ok2talk">
+        <div class="container-fluid d-flex h-100 case-container">
+            <div class="case-description pl-6 pr-6 white">
+                <h2>OK2TALK</h2>
+                    <h6 class="black-font tools white">Sketch, Marvel, Box Suite</h6>
+
+                    <p class="white">OK2TALK is a digital survey system empathically designed to create a seamless feedback system between the National Alliance on Mental Health (NAMI) and their teenage mental health support groups.</p>
+
+                    <p class="white">Learn how I collaborated with 14 talented designers at IBM Maelstrom to create NAMI's OK2TALK Share. In this case study, I learned how to apply IBM Design Thinking to bring empathy to design, learn from competition in the market, and bring scalability to the heart of the process.</p>
+                    <a class="btn btn-primary button-grow" href="https://medium.com/@joshmontech/case-study-ibm-maelstrom-ok2talk-98bf058731c0" target="_blank" role="button">Check It Out<i class="fa fa-arrow-right" style="margin-left: 10px;"></i></a>
+            </div>
+                <div class="case-image mr-3" data-aos="fade-left"
+          data-aos-duration="1000">
+                    <img src="/img/mockups/preview_b_1.png" class="fluid">
+                </div>
+                <div class="case-image flag mr-neg20" data-aos="fade-left"
+          data-aos-duration="1000">
+                    <img src="/img/mockups/preview_b_2.png" class="fluid">
+                </div>
+        </div>
+    </section>
+
+     <section class="panel" data-color="mefree">
+        <div class="container-fluid d-flex h-100 case-container">
             <div class="case-description pl-6 pr-6 dark-blue">
                 <h2>MeFree</h2>
                     <h6 class="black-font tools">Swift, Sketch, InVision</h6>
 
                     <p>MeFree is an iOS social network app that helps people host and join impromptu hangouts with friends.</p>
 
-                    <p>Learn about my experience working in an agile sprint group as the sole developer and designer, how I used user research to guide the design process, and how we collaborated together in order to launch our app to the Apple App Store in less than 4 months.</p>
+                    <p>Learn about how I contributed in an agile sprint group as the sole developer and designer, how I used user research to guide the design process, and how we collaborated together in order to launch our app to the Apple App Store in less than 4 months.</p>
                     <a class="btn btn-primary button-grow" href="https://medium.com/@joshmontech/case-study-mefree-2624b6e2429d" target="_blank" role="button">Check It Out<i class="fa fa-arrow-right" style="margin-left: 10px;"></i></a>
             </div>
-                <div class="case-image mr-3">
+                <div class="case-image mr-3" data-aos="fade-left"
+          data-aos-duration="1000">
                     <img src="/img/mockups/preview_a_1.png" class="fluid">
                 </div>
-                <div class="case-image flag mr-neg20">
+                <div class="case-image flag mr-neg20" data-aos="fade-left"      data-aos-duration="1000">
                     <img src="/img/mockups/preview_a_2.png" class="fluid">
                 </div>
+        
         </div>
     </section>
 
-    <section>
-        <div class="container-fluid d-flex h-100 case-container ok2talk">
-            <div class="case-description pl-6 pr-6 white">
-                <h2>OK2TALK</h2>
-                    <h6 class="black-font tools white">Sketch, Marvel, Box</h6>
-
-                    <p class="white">OK2TALK improves how the National Alliance on Mental Health (NAMI) gathers needed feedback from teenage participants who attend their mental health support-groups.</p>
-
-                    <p class="white">Learn how I collaborated with 14 talented designers at IBM Maelstrom to create OK2TALK. In this case study, I learned how to apply IBM Design Thinking to bring empathy to design, learn from competition in the market, and bring scalability to the heart of the process.</p>
-                    <a class="btn btn-primary button-grow" href="https://medium.com/@joshmontech/case-study-ibm-maelstrom-ok2talk-98bf058731c0" target="_blank" role="button">Check It Out<i class="fa fa-arrow-right" style="margin-left: 10px;"></i></a>
-            </div>
-                <div class="case-image mr-3">
-                    <img src="/img/mockups/preview_b_1.png" class="fluid">
-                </div>
-                <div class="case-image flag mr-neg20">
-                    <img src="/img/mockups/preview_b_2.png" class="fluid">
-                </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container-fluid d-flex h-100 case-container stockup">
+    <section class="panel" data-color="stockup">
+        <div class="container-fluid d-flex h-100 case-container">
             <div class="case-description pl-6 pr-6 dark-blue">
                 <h2>Stock Up</h2>
                     <h6 class="black-font tools dark-blue">Sketch, Google Suite</h6>
@@ -143,24 +157,25 @@
                     <p>Learn about my experience at 3 Day Startup, a weekend workshop where I worked with a starters to identify a market need, research and validate it, and finally design a brand and service to help meet it.</p>
                     <a class="btn btn-primary button-grow" href="https://medium.com/@joshmontech/case-study-3-day-startup-stock-up-fe9da957e1e0" target="_blank" role="button">Check It Out<i class="fa fa-arrow-right" style="margin-left: 10px;"></i></a>
             </div>
-                <div>
+                <div  data-aos="fade-left"
+          data-aos-duration="1000">
                     <img src="/img/mockups/preview_c_1.png" class="fluid2">
                 </div>
         </div>
     </section>
 
     <!-- Thanks for visiting! -->
-    <div class="container top-buffer bottom-buffer">
+    <div class="container top-buffer bottom-buffer panel ">
       <div class="row">
-        <div class="col-md-12 text-center mb-4">
+        <div class="col-md-12 text-center mb-4" data-aos="fade-up">
           <span class="black-font" style="font-size:32px; color: #0E2D51;">Connect With Me</span> 
         </div>
       </div>
       <div class="row">
         <div class="col-md-1">
         </div>
-        <div class="col-md-10 align-center text-center mb-4">
-          <span class="light-font mission" style="color: #0E2D51;"><span class="bold-font">I'm currently seeking product design and development opportunities!</span> I coded this website from scratch (<a href="https://github.com/JoshMontech/joshmontech.com" class="mission-highlight">get it here</a>), no template, no theme, only opensource frameworks, my code and oodles of Googling. If you liked it, check out some of my other work by clicking the button below! 👇
+        <div class="col-md-10 align-center text-center mb-4" data-aos="fade-up">
+          <span class="light-font mission" style="color: #0E2D51;"><span class="bold-font">I'm currently seeking product design and development opportunities!</span> I coded this website from scratch (<a href="https://github.com/JoshMontech/joshmontech.com" class="mission-highlight">get it here</a>), no template, no theme, only opensource frameworks, my code and oodles of Googling. If you didn't already, learn about me and my process at the button below!👇
           <br />
           <br />
           If you think I could be a good fit for a position, have any questions, or just want to say hi, then please don't hesitate to reach out! 😃👋
@@ -170,8 +185,8 @@
       </div>
       <div class="row">
         <div class="col-12 text-center">
-          <a class="btn btn-primary button-grow mr-5" href="/" role="button">My Process<i class="fa fa-pencil" style="margin-left: 10px;"></i></a>
-          <a class="btn btn-primary button-grow" href="mailto:joshmontech@gmail.com" role="button">Contact Me<i class="fa fa-envelope" style="margin-left: 10px;"></i></a>
+          <a class="btn btn-primary button-grow mr-5" href="/" role="button" data-aos="fade-up">My Process<i class="fa fa-pencil" style="margin-left: 10px;"></i></a>
+          <a class="btn btn-primary button-grow" href="mailto:joshmontech@gmail.com" role="button" data-aos="fade-up">Contact Me<i class="fa fa-envelope" style="margin-left: 10px;"></i></a>
         </div>
       </div>
     </div>
@@ -201,15 +216,50 @@
 
 
 
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 
-   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
-  <script src="bower_components/aos/dist/aos.js"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
+    <script>
+    AOS.init();
+  </script>
 
-  <script src="/js/josh_scripts.js"></script>
+  <script>
+        $(window).scroll(function() {
+          
+          // selectors
+          var $window = $(window),
+              $body = $('body'),
+              $panel = $('.panel');
+          
+          // Change 33% earlier than scroll position so colour is there when you arrive.
+          var scroll = $window.scrollTop() + ($window.height() / 3);
+         
+          $panel.each(function () {
+            var $this = $(this);
+            
+            // if position is within range of this panel.
+            // So position of (position of top of div <= scroll position) && (position of bottom of div > scroll position).
+            // Remember we set the scroll to 33% earlier in scroll var.
+            if ($this.position().top <= scroll && $this.position().top + $this.height() > scroll) {
+                  
+              // Remove all classes on body with color-
+              $body.removeClass(function (index, css) {
+                return (css.match (/(^|\s)color-\S+/g) || []).join(' ');
+              });
+               
+              // Add class of currently active div
+              $body.addClass('color-' + $(this).data('color'));
+            }
+          });    
+          
+        }).scroll();
+    </script>
 
+      <script src="/js/josh_scripts.js"></script>
   </body>
 </html>
 

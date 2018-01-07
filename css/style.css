@@ -42,6 +42,8 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	padding-top: 0;
+    transition: background-color 750ms ease;
+    background-color:#F5FAFA;
 }
 
 .mission-highlight {
@@ -82,8 +84,29 @@ nav {
 body, html {
     height: 100%;
     margin: 0;
+    /*background-color: #F5FAFA;*/
+}
+
+/* colours */
+
+.color-mefree {
+  background-color: #d0e3ef;
+}
+.color-ok2talk {
+  background-color: #106b75;
+}
+.color-stockup {
+  background-color: #f2be87;
+}
+
+.color-body {
     background-color: #F5FAFA;
 }
+
+.color-dblue {
+    background-color: #0E2D51;
+}
+
 
 .bg {
 	margin-top: -80px;
@@ -127,6 +150,10 @@ main {
 
 section {
     height: 120vh;
+}
+
+section.spacer {
+    height: 40vh;
 }
 
 section.bg2 {
@@ -222,6 +249,11 @@ section.bg2 {
     }
 }
 
+.lol {
+    height:auto;
+    width:auto;
+}
+
 .dark-blue {
     color: #0E2D51;
 }
@@ -241,6 +273,10 @@ section.bg2 {
 
 .pt-10 {
     padding-top: 11rem;
+}
+
+.mt-11 {
+    margin-top: 10rem;
 }
 
 .pl-6 {
@@ -377,7 +413,7 @@ section.bg2 {
     background: #0F2E50;
     z-index: 99;
 }
-
+/*
 .mefree {
     background-color: #d0e3ef;
 }
@@ -389,7 +425,7 @@ section.bg2 {
 .stockup {
     background-color: #f2be87;
 }
-
+*/
 .bottom-buffer {
     margin-bottom: 2rem;
 }
