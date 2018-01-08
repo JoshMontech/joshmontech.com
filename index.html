@@ -26,6 +26,7 @@
   
   <!-- body starts here -->
   <body cz-shortcut-listen="true">
+    <img src="/css/bg.png" style="display:none;">
 
     <div class="loader-wrapper">
       <div class="loader"></div>
@@ -119,7 +120,7 @@
           <img src="img/lightbulb3.png" height="180">
         </div>
         <div class="col-md-8 mission text-center test text-md-left mt-4">
-          <p style="color: #0E2D51;" class="light-font"   data-aos="fade-left" data-aos-duration="1000">
+          <p style="color: #0E2D51;" class="light-font"   data-aos="fade-up" data-aos-duration="800">
             <span class="black-font" style="font-size:32px;">My Passion</span> is balancing between <span class="emphasis">user needs</span>, <span class="emphasis"> business goals</span>, and <span class="emphasis">technical constraints</span> to design scalable solutions that grow with their success.
           </p>
         </div>
@@ -193,7 +194,7 @@
         <div class="col-md-4 mb-4">
           <img src="img/rotation.png" width="200">
         </div>
-        <div class="col-md-8 mission text-md-left light-font" data-aos="fade-left" data-aos-duration="1000">
+        <div class="col-md-8 mission text-md-left light-font" data-aos="fade-up" data-aos-duration="800">
           <p style="color: #0E2D51;"><span class="black-font" style="font-size:32px;">My Process</span> focuses on rapid and iterative design sprints to create strong solutions that can be developed with confidence - it's heavily inspired by <a  class="mission-highlight" href="https://www.ibm.com/design/thinking/principles/restless-reinvention">IBM</a> and <a class="mission-highlight" href="https://designsprintkit.withgoogle.com/methods/">Google</a> design methodologies!</p>
         </div>
       </div>
@@ -496,7 +497,9 @@
 
 
   <script>
-    AOS.init();
+     AOS.init({
+      disable: 'mobile'
+    });
   </script>
 
   <script src="/js/josh_scripts.js"></script>
