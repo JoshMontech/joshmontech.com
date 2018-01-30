@@ -593,18 +593,6 @@ p, h5, h6 {
 
 }
 
-@media (min-width: 768px ) {
-  .row {
-      position: relative;
-  }
-
-  .bottom-align-text {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-}
-
 @media screen and (min-width: 769px) {
     .rsp-bottom-margin {
         /*margin-bottom: 2rem;*/
